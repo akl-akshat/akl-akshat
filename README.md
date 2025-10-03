@@ -29,7 +29,7 @@
 ### ⚙️ Tools & Technologies
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Kafka](https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apache-kafka&logoColor=white)
-![ParallelComputing](https://img.shields.io/badge/Parallel-Computing-06B6D4?style=for-the-badge&logo=Parallel-Computing&logoColor=white)
+![ParallelComputing](https://img.shields.io/badge/ParallelComputing-06B6D4?style=for-the-badge&logo=ParallelComputing&logoColor=white)
 ![Microservices](https://img.shields.io/badge/Microservices-FF6F00?style=for-the-badge&logo=apache&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
