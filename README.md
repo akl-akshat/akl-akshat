@@ -29,12 +29,10 @@
 ### ⚙️ Tools & Technologies
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Kafka](https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apache-kafka&logoColor=white)
+![ParallelComputing](https://img.shields.io/badge/Parallel-Computing-06B6D4?style=for-the-badge&logo=Parallel-Computing&logoColor=white)
 ![Microservices](https://img.shields.io/badge/Microservices-FF6F00?style=for-the-badge&logo=apache&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![OpenMP](https://img.shields.io/badge/OpenMP-1D2D35?style=for-the-badge&logo=openmp&logoColor=white)
 ![MPI](https://img.shields.io/badge/MPI-0083C1?style=for-the-badge&logo=mpi&logoColor=white)
 
