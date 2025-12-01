@@ -10,8 +10,9 @@
 ## 🛠️ Skills & Tech Stack  
 
 ### 💡 Expertise
-- Object Oriented Programming (OOP)  
-- Data Structures & Algorithms (DSA)  
+- Object Oriented Programming (OOP)
+- Data Structures & Algorithms (DSA)
+- Computer Networks (CN)
 - Web Development (Frontend + Backend)  
 - Database Management Systems (DBMS)  
 - Competitive Programming  
