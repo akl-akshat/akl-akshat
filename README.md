@@ -1,96 +1,134 @@
-# Akshat Lakhera -- Github
+<h1 align="center">Akshat Lakhera</h1>
 
-🎓 B.Tech. Computer Science & Applied Mathematics @ IIIT Delhi (2023–2027)  
-💻 Passionate about **Parallel Computing, Problem Solving and Competitive Programming**  
-🚀 Exploring **High Performance Computing, Distributed Systems, and Applied Mathematics**  
-⚡ Fun fact: I love solving logical puzzles, playing the synthesizer 🎹, pool , snooker and foosball ⚽  
+<p align="center">
+  B.Tech. Computer Science and Applied Mathematics @ IIIT Delhi (2023-2027)
+  <br />
+  Systems, backend, parallel computing, and applied AI
+</p>
 
----
+<p align="center">
+  Looking for software engineering, backend, systems, HPC, and AI internship opportunities
+</p>
 
-## 🛠️ Skills & Tech Stack  
+<p align="center">
+  <a href="https://www.linkedin.com/in/akshat-lakhera-19b7842b5/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://github.com/akl-akshat">
+    <img src="https://img.shields.io/badge/GitHub-111111?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+  <a href="https://codeforces.com/profile/Akshat_Lakhera">
+    <img src="https://img.shields.io/badge/Codeforces-1F4ACB?style=for-the-badge&logo=codeforces&logoColor=white" alt="Codeforces" />
+  </a>
+  <a href="mailto:akshat23061@iiitd.ac.in">
+    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+</p>
 
-### 💡 Expertise
-- Data Structures & Algorithms (DSA)
-- Object Oriented Programming (OOP)
-- Operating Systems (OS)
-- Computer Networks (CN)
-- Web Development (Frontend + Backend)  
-- Database Management Systems (DBMS)  
-- Competitive Programming  
+## About Me
 
-### 🔤 Languages
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+- Systems-oriented developer with strong foundations in DSA, OOP, Operating Systems, DBMS, and Computer Networks.
+- Interested in performance engineering, distributed systems, scientific computing, and competitive programming.
+- Currently exploring machine learning, LLM applications, and agentic AI workflows.
 
-### ⚙️ Tools & Technologies
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Kafka](https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apache-kafka&logoColor=white)
-![Parallel Computing](https://img.shields.io/badge/ParallelComputing-06B6D4?style=for-the-badge&logo=ParallelComputing&logoColor=white)
-![Microservices](https://img.shields.io/badge/Microservices-FF6F00?style=for-the-badge&logo=apache&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![OpenMP](https://img.shields.io/badge/OpenMP-1D2D35?style=for-the-badge&logo=openmp&logoColor=white)
-![MPI](https://img.shields.io/badge/MPI-0083C1?style=for-the-badge&logo=mpi&logoColor=white)
+## What I Work On
 
----
+- High-performance systems in C, C++, Python, and CUDA.
+- Backend applications and APIs with Django REST Framework and PostgreSQL.
+- Parallel and numerical computing with MPI, OpenMP, and finite-difference methods.
+- Applied AI tools using OpenAI APIs, LLM workflows, and automation-oriented agents.
 
-## 📂 Featured Projects  
+## Tech Stack
 
-### 🎮 [Angry Birds Game (LibGDX)](https://github.com/akl-akshat/AngryBirdGame2)
-- Built an interactive Angry Birds clone with **2.1K+ lines of code** using Java & LibGDX.  
-- Applied **OOP principles** (polymorphism, encapsulation, abstraction, inheritance).  
-- Designed with UML diagrams, event-driven programming & custom animations.  
+**Languages**
 
-### 📚 [Personalized Study Planner App](https://github.com/Adit1414/StudyPlannerApp)  
-- Full-stack planner for exam prep with **REST API** and **OpenAI integration**.  
-- Automated **mock test generation** (90% faster) using OpenAI API.  
-- Used Python, Django REST Framework, PostgreSQL.  
+<p>
+  <img src="https://img.shields.io/badge/C-283593?style=for-the-badge&logo=c&logoColor=white" alt="C" />
+  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Java-E76F00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=111111" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL" />
+</p>
 
-### 🧑‍🏫 [E-Coaching Guru Guide](https://github.com/RaghavvMittal11/Glorifly)  
-- JEE prep full-stack app with **Java + JSP + MySQL + React**.  
-- Designed normalized DB schemas and 25+ optimized SQL queries.  
-- Reduced page load times by **35%** via optimized React components.  
+**Systems and HPC**
 
-### 🖥️ [Custom Shell with Scheduler](https://github.com/akl-akshat/OperatingSystems)  
-- Implemented advanced scheduling policies (Round Robin) for 30+ tasks.  
-- Achieved efficient CPU utilization & fairness under high load.  
-- Integrated semaphores for **deadlock prevention**.  
+<p>
+  <img src="https://img.shields.io/badge/CUDA-0F172A?style=for-the-badge&logo=nvidia&logoColor=76B900" alt="CUDA" />
+  <img src="https://img.shields.io/badge/OpenMP-1D4ED8?style=for-the-badge&logoColor=white" alt="OpenMP" />
+  <img src="https://img.shields.io/badge/MPI-047857?style=for-the-badge&logoColor=white" alt="MPI" />
+  <img src="https://img.shields.io/badge/Linux-B45309?style=for-the-badge&logo=linux&logoColor=111111" alt="Linux" />
+  <img src="https://img.shields.io/badge/Concurrency-7C2D12?style=for-the-badge&logoColor=white" alt="Concurrency" />
+  <img src="https://img.shields.io/badge/Numerical%20Methods-7C3AED?style=for-the-badge&logoColor=white" alt="Numerical Methods" />
+</p>
 
----
+**Backend and Data**
 
-## 📊 GitHub Stats  
+<p>
+  <img src="https://img.shields.io/badge/Django%20REST%20Framework-092E20?style=for-the-badge&logo=django&logoColor=white" alt="Django REST Framework" />
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/MySQL-1F2937?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/Kafka-111111?style=for-the-badge&logo=apachekafka&logoColor=white" alt="Kafka" />
+</p>
 
-![Akshat’s GitHub Stats](https://github-readme-stats.vercel.app/api?username=akl-akshat&show_icons=true&theme=radical)  
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=akl-akshat&layout=compact&theme=tokyonight)  
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=akl-akshat&theme=dark)  
-![Trophies](https://github-profile-trophy.vercel.app/?username=akl-akshat&theme=onedark)  
- 
----
+**AI and ML**
 
-## 🏆 Achievements  
+<p>
+  <img src="https://img.shields.io/badge/OpenAI%20API-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI API" />
+  <img src="https://img.shields.io/badge/LLM%20Applications-059669?style=for-the-badge&logoColor=white" alt="LLM Applications" />
+  <img src="https://img.shields.io/badge/Prompt%20Engineering-2563EB?style=for-the-badge&logoColor=white" alt="Prompt Engineering" />
+  <img src="https://img.shields.io/badge/Agentic%20AI-F97316?style=for-the-badge&logoColor=white" alt="Agentic AI" />
+  <img src="https://img.shields.io/badge/Machine%20Learning-DC2626?style=for-the-badge&logoColor=white" alt="Machine Learning" />
+</p>
 
-- 🥇 Specialist @ Codeforces (Rating: **1458**) – Top 20% globally.  
-- 🎖️ Qualified at **State Level in Smart India Hackathon 2024 (SIH’24)**.  
-- 📘 Subject Topper – Mathematics (100/100, CBSE 2021).  
+## Featured Projects
 
----
+### [Black-Scholes Option Pricing using Parallel Computing](https://github.com/akl-akshat/Black-Scholes-using-Parallel-Computing)
+- Built finite-difference solvers for the Black-Scholes PDE using MPI in Python and OpenMP in C++.
+- Implemented domain decomposition, ghost-cell communication, and shared-memory parallel loops for faster option pricing.
+- Benchmarked runtime, stability, and accuracy across serial, MPI, and OpenMP variants with supporting analysis and presentation material.
 
-## 🔗 Connect with Me  
+### [Operating Systems Components](https://github.com/akl-akshat/OperatingSystems)
+- Built a custom ELF loader, Unix shell, process scheduler, and multithreading components from scratch in C.
+- Implemented process scheduling, daemon and background process handling, and memory-aware execution behavior.
+- Strengthened low-level understanding of processes, scheduling, concurrency, and operating system internals.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/akshat-lakhera-19b7842b5/)  
-[![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github)](https://github.com/akl-akshat)  
-[![Codeforces](https://img.shields.io/badge/Codeforces-445F9D?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/Akshat_Lakhera)  
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:akshat23061@iiitd.ac.in)  
+### [High-Performance Image Grayscale Conversion using CUDA](https://github.com/akl-akshat/High-Performance-Image-Grayscale-Conversion-using-CUDA)
+- Built a CUDA and C++17 batch pipeline for converting high-resolution TIFF images to grayscale on the GPU.
+- Used parallel pixel processing, libtiff-based I/O, and filesystem-driven batch traversal for throughput-oriented image processing.
+- Designed the utility for configurable execution and efficient handling of large image folders.
 
----
+### [Personalized Study Planner App](https://github.com/Adit1414/StudyPlannerApp)
+- Built a full-stack exam-prep planner using Python, Django REST Framework, and PostgreSQL.
+- Integrated OpenAI APIs to automate mock-test generation and reduce manual content creation time by 90%.
+- Designed REST endpoints and backend workflows for scalable study-planning features.
 
-## 💬 Quote I Live By  
-> "Stay curious, keep building, and never stop learning."  
+### [GPU vs GPU Tic-Tac-Toe with CUDA Kernels](https://github.com/akl-akshat/GPU-vs-GPU-Tic-Tac-Toe-with-CUDA-Kernels-Public)
+- Built a CUDA-based game where both players evaluate legal moves in parallel on the GPU.
+- Used the CPU as the referee while GPU kernels scored candidate moves with different heuristics.
+- Explored GPU execution, parallel evaluation, and host-device coordination in an interactive setting.
 
----
+## Achievements
+
+- Codeforces Specialist with a rating of 1458.
+- State-level qualifier in Smart India Hackathon 2024.
+- Mathematics subject topper in CBSE 2021 with a score of 100/100.
+
+## GitHub Stats
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=akl-akshat&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=akl-akshat&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+</p>
+
+<p align="center">
+  <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=akl-akshat&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+</p>
+
+## Current Focus
+
+- High-performance computing, CUDA, and parallel numerical methods.
+- Backend engineering and scalable API design.
+- Machine learning fundamentals, LLM applications, and agentic AI systems.
