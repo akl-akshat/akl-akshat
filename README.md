@@ -3,11 +3,11 @@
 <p align="center">
   B.Tech. Computer Science and Applied Mathematics @ IIIT Delhi (2023-2027)
   <br />
-  Systems, backend, parallel computing, and applied AI
+  Backend, systems, agentic AI, and quantitative engineering
 </p>
 
 <p align="center">
-  Looking for software engineering, backend, systems, HPC, and AI internship opportunities
+  Looking for software engineering, backend, AI, and quantitative systems internship opportunities
 </p>
 
 <p align="center">
@@ -28,15 +28,15 @@
 ## About Me
 
 - Systems-oriented developer with strong foundations in DSA, OOP, Operating Systems, DBMS, and Computer Networks.
-- Interested in performance engineering, distributed systems, scientific computing, and competitive programming.
-- Currently exploring machine learning, LLM applications, and agentic AI workflows.
+- Interested in backend systems, distributed systems, quantitative problem-solving, and competitive programming.
+- Currently focused on agentic AI, machine learning, and market-making oriented quantitative systems.
 
 ## What I Work On
 
-- High-performance systems in C, C++, Python, and CUDA.
 - Backend applications and APIs with Django REST Framework and PostgreSQL.
-- Parallel and numerical computing with MPI, OpenMP, and finite-difference methods.
-- Applied AI tools using OpenAI APIs, LLM workflows, and automation-oriented agents.
+- Agentic AI tools, LLM workflows, and automation-oriented systems using OpenAI APIs.
+- Quantitative modeling, market-making style problem solving, and numerical computing.
+- Systems programming and performance-oriented software in C, C++, and Python.
 
 ## Tech Stack
 
@@ -51,10 +51,9 @@
   <img src="https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL" />
 </p>
 
-**Systems and HPC**
+**Systems and Performance**
 
 <p>
-  <img src="https://img.shields.io/badge/CUDA-0F172A?style=for-the-badge&logo=nvidia&logoColor=76B900" alt="CUDA" />
   <img src="https://img.shields.io/badge/OpenMP-1D4ED8?style=for-the-badge&logoColor=white" alt="OpenMP" />
   <img src="https://img.shields.io/badge/MPI-047857?style=for-the-badge&logoColor=white" alt="MPI" />
   <img src="https://img.shields.io/badge/Linux-B45309?style=for-the-badge&logo=linux&logoColor=111111" alt="Linux" />
@@ -90,25 +89,25 @@
 - Implemented domain decomposition, ghost-cell communication, and shared-memory parallel loops for faster option pricing.
 - Benchmarked runtime, stability, and accuracy across serial, MPI, and OpenMP variants with supporting analysis and presentation material.
 
-### [Operating Systems Components](https://github.com/akl-akshat/OperatingSystems)
-- Built a custom ELF loader, Unix shell, process scheduler, and multithreading components from scratch in C.
-- Implemented process scheduling, daemon and background process handling, and memory-aware execution behavior.
-- Strengthened low-level understanding of processes, scheduling, concurrency, and operating system internals.
-
-### [High-Performance Image Grayscale Conversion using CUDA](https://github.com/akl-akshat/High-Performance-Image-Grayscale-Conversion-using-CUDA)
-- Built a CUDA and C++17 batch pipeline for converting high-resolution TIFF images to grayscale on the GPU.
-- Used parallel pixel processing, libtiff-based I/O, and filesystem-driven batch traversal for throughput-oriented image processing.
-- Designed the utility for configurable execution and efficient handling of large image folders.
-
 ### [Personalized Study Planner App](https://github.com/Adit1414/StudyPlannerApp)
 - Built a full-stack exam-prep planner using Python, Django REST Framework, and PostgreSQL.
 - Integrated OpenAI APIs to automate mock-test generation and reduce manual content creation time by 90%.
 - Designed REST endpoints and backend workflows for scalable study-planning features.
 
-### [GPU vs GPU Tic-Tac-Toe with CUDA Kernels](https://github.com/akl-akshat/GPU-vs-GPU-Tic-Tac-Toe-with-CUDA-Kernels-Public)
-- Built a CUDA-based game where both players evaluate legal moves in parallel on the GPU.
-- Used the CPU as the referee while GPU kernels scored candidate moves with different heuristics.
-- Explored GPU execution, parallel evaluation, and host-device coordination in an interactive setting.
+### [Operating Systems Components](https://github.com/akl-akshat/OperatingSystems)
+- Built a custom ELF loader, Unix shell, process scheduler, and multithreading components from scratch in C.
+- Implemented process scheduling, daemon and background process handling, and memory-aware execution behavior.
+- Strengthened low-level understanding of processes, scheduling, concurrency, and operating system internals.
+
+### [E-Coaching Guru Guide](https://github.com/RaghavvMittal11/Glorifly)
+- Contributed to a full-stack learning platform using Java, JSP, MySQL, and React.
+- Designed normalized database schemas and wrote 25+ optimized SQL queries.
+- Improved frontend responsiveness and reduced page load time through React-side optimization.
+
+### [Angry Birds Game (LibGDX)](https://github.com/akl-akshat/AngryBirdGame2)
+- Built an Angry Birds-inspired game in Java using LibGDX with gameplay logic, animations, and interactive mechanics.
+- Applied core OOP principles including abstraction, inheritance, polymorphism, and encapsulation.
+- Structured the project around event-driven design and clean modular components.
 
 ## Achievements
 
@@ -119,8 +118,8 @@
 ## GitHub Stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=akl-akshat&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=akl-akshat&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=akl-akshat&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&cache_seconds=21600" alt="GitHub Stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=akl-akshat&layout=compact&theme=tokyonight&hide_border=true&hide=cuda&cache_seconds=21600" alt="Top Languages" />
 </p>
 
 <p align="center">
@@ -129,6 +128,6 @@
 
 ## Current Focus
 
-- High-performance computing, CUDA, and parallel numerical methods.
-- Backend engineering and scalable API design.
-- Machine learning fundamentals, LLM applications, and agentic AI systems.
+- Agentic AI systems, tool-using workflows, and LLM applications.
+- Machine learning and quantitative modeling for market-making style systems.
+- Backend engineering, distributed systems, and performance-oriented software.
