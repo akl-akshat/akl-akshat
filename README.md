@@ -11,13 +11,13 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/akshat-lakhera-19b7842b5/">
+  <a href="https://www.linkedin.com/in/akshat-lakhera-iiit-delhi/">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="https://akshat-lakhera-portfolio.vercel.app/">
     <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
   </a>
-  <a href="https://leetcode.com/u/Akshat_Lakhera/">
+  <a href="https://leetcode.com/u/AKSHAT_LAKHERA/">
     <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />
   </a>
   <a href="https://codeforces.com/profile/Akshat_Lakhera">
@@ -32,52 +32,53 @@
 
 ## About Me
 
-Systems-oriented engineer with a strong CS + applied-math foundation (DSA, OS, DBMS, Computer Networks, Parallel Programming, Convex Optimization). I like problems where correctness, latency, and scale all matter at once — distributed backends, concurrency, and numerical computing — and I'm currently deep in **agentic AI** and **quantitative / high-performance systems**.
+Systems-oriented engineer with a strong CS + applied-math foundation (DSA, OS, DBMS, Computer Networks, Parallel Programming, Probability &amp; Stochastic Processes, Convex Optimization). I like problems where correctness, latency, and scale all matter at once — distributed backends, concurrency, and numerical computing — and I'm currently deep in **agentic AI** and **quantitative / high-performance systems**.
 
-- 🛠️ **Backend & distributed systems** — Spring Boot, FastAPI, Kafka, REST microservices over TCP/IP.
+- 🛠️ **Backend & distributed systems** — FastAPI, Spring Boot, Kafka, REST microservices over TCP/IP.
 - ⚡ **Systems & HPC** — C/C++ on Linux, multithreading, OpenMP/MPI, OS internals.
-- 🤖 **Agentic AI** — LLM orchestration with LangChain/LangGraph, RAG, and MCP.
+- 🤖 **Agentic AI** — LLM orchestration with LangGraph/LangChain, RAG, and MCP — with deterministic guardrails where money moves.
 - 📈 **Quantitative computing** — parallel PDE solvers and performance-critical numerical modeling.
-- 🧩 **Codeforces Specialist (max 1458)** — 500+ problems solved across Codeforces & LeetCode.
+- 🧩 **Codeforces Specialist (max 1458)** — **750+ problems** solved (550+ LeetCode, 200+ Codeforces).
+- 🏆 **IMC Prosperity 4 Finalist** — World Rank **823** · All-India Rank **175** · Algorithmic Rank **278**.
 
-> 💼 Open to **SWE · Backend · Quant · AI** internship opportunities.
+> 💼 Open to **SDE · Backend · Quant · AI** — internships &amp; full-time (Class of 2027).
 
 ---
 
 ## Experience
 
-### Software Developer Intern — DRDO (ISSA Lab, Metcalfe House) · Jun 2025 – Jul 2025
-- Engineered **Kafka-driven distributed pipelines** and object-oriented **Spring Boot / C++ microservices over TCP/IP**, improving asynchronous processing efficiency by **60%** for mission-critical defense systems.
-- Built and debugged a **YOLOv8 + OpenCV** maritime threat-detection pipeline achieving **0.83 mAP@0.5**, with custom XML→YOLO annotation parsing to preserve data integrity.
-- Streamlined C++ Linux service deployments into a **CI/CD pipeline** under Agile/SDLC practices, eliminating manual integration errors.
-
 ### Software Developer Intern — Grove Growth · Jan 2026 – Apr 2026
-- Delivered a **gamified campus-ambassador platform for 100+ users** with cloud-native **TypeScript / Next.js** services on a **17-table Supabase PostgreSQL** schema — dual portals, live leaderboards, and **20+ REST APIs** shipped over a 4-month Agile cycle.
-- Eliminated concurrency defects under peak load via **atomic transactions and row-level locking**, backed by **433 end-to-end & acceptance tests** across 21 suites and secure-coding practices (input validation, parameterized queries).
-- Drove post-deployment defects to **zero** through proactive code review and shared debugging learnings.
+- Shipped a production **gamified campus-ambassador platform for 100+ users** — dual portals, live leaderboards, and **20+ REST APIs** in **TypeScript / Next.js** on a **17-table Supabase (PostgreSQL)** schema across Agile sprint cycles.
+- Eliminated concurrency defects under peak load via **atomic transactions and row-level locking**; enforced secure coding (input validation, parameterized queries) and validated releases with **433 automated tests** across 21 suites.
 
-### Undergraduate Research — Parallel Computing for Scientific & Financial Simulations · Aug 2025 – Dec 2025
-- Optimized HPC simulations **15×** by parallelizing compute kernels with **OpenMP and MPI**, recovering **60+ compute-hours**.
-- Implemented **Black-Scholes PDE solvers** (Explicit, Implicit, Crank-Nicolson) in C++ and parallelized the explicit scheme to cut per-step latency for high-throughput financial modeling.
+### Undergraduate Research — Parallel Computing for Scientific &amp; Financial Simulations · Aug 2025 – Dec 2025
+- Accelerated HPC simulation kernels **15×** by parallelizing with **OpenMP and MPI**, recovering **60+ compute-hours** through multithreaded optimization and performance profiling.
+- Implemented **Black-Scholes option-pricing PDE solvers** (Explicit, Implicit, Crank-Nicolson) in C++ and parallelized the explicit scheme, cutting per-cycle solve latency from **2.69 s to 6 ms**.
+
+### Software Developer Intern — DRDO (ISSA Lab, Metcalfe House) · Jun 2025 – Jul 2025
+- Engineered asynchronous **inter-service communication between C++ and Java (Spring Boot) microservices using Kafka over TCP/IP** in a distributed, mission-critical defense system, improving processing efficiency by **60%**.
+- Trained a **YOLOv8** maritime vessel-detection model on HRSC2016 satellite imagery to **0.83 mAP@0.5**, with **OpenCV**-based image preprocessing and a custom XML→YOLO annotation parser.
+- Streamlined C++ Linux service deployments into a **CI/CD pipeline**, eliminating manual integration errors across test environments.
 
 ---
 
 ## Featured Projects
 
-### [Custom Shell with MLFQ Scheduler](https://github.com/akl-akshat/OperatingSystems) · C, Makefile, Linux
-- Programmed an **MLFQ-based scheduler daemon** inside a custom C shell, managing **30+ concurrent processes** with dynamic priority scaling.
-- Added **semaphore-based synchronization** and timing-driven deadlock detection, eliminating race conditions while improving CPU/memory utilization.
+### [ReturnGuard — Multi-Tenant Returns Resolution Platform](https://github.com/akl-akshat/ReturnGuard) · Python, FastAPI, LangGraph, Kafka, PostgreSQL
+- Multi-tenant returns-automation service on an **11-node stateful agent graph** — driven synchronously (REST) and asynchronously (a **Kafka** pipeline), with each tenant's uploaded refund policy grounding every decision via per-tenant vector retrieval (pgvector).
+- Money path built to stay correct under failure and concurrency: **deterministic guardrails** (payout caps, rate limits) evaluated outside the model, plus **idempotent execution with a transactional outbox** — retries and redeliveries never double-pay.
+- Adversarially red-teamed with every fix pinned by a regression test; **200+ tests** run in CI, gating merges on a **44-case labelled eval** — **88.6% auto-resolution with zero guardrail violations**.
+
+### [Custom Unix Shell with MLFQ Scheduler](https://github.com/akl-akshat/OperatingSystems) · C, Makefile, Linux
+- Programmed an **MLFQ-based scheduler daemon** inside a custom C shell (fork/exec/wait system calls), managing **30+ concurrent processes** with adaptive priority scaling (~12% CPU-utilization gain under load).
+- Added **semaphore-based synchronization** and timing-driven deadlock detection, eliminating race conditions under heavy concurrency.
 
 ### [Black-Scholes Option Pricing via Parallel Computing](https://github.com/akl-akshat/Black-Scholes-using-Parallel-Computing) · C++, Python, OpenMP, MPI
-- Built finite-difference solvers for the Black-Scholes PDE with **MPI (Python)** and **OpenMP (C++)**, using domain decomposition and ghost-cell communication.
+- Built finite-difference solvers for the Black-Scholes PDE with **MPI** and **OpenMP**, using domain decomposition and ghost-cell communication.
 - Benchmarked runtime, stability, and accuracy across serial, MPI, and OpenMP variants with supporting analysis.
 
-### [Personalized Study Planner](https://github.com/Adit1414/StudyPlannerApp) · Python, FastAPI, LLM, RAG, MCP
-- Built a scalable exam-prep platform for **100+ users** on FastAPI REST services with a CLI-driven LLM pipeline, cutting mock-test generation time by **90%**.
-- Architected a modular **agentic LLM orchestration layer** with **RAG and MCP**, plus MongoDB-backed session persistence.
-
-### CiPD 360 — ERP & LMS · Next.js, PostgreSQL, Node.js
-- Deployed a full-stack **ERP + LMS for IIIT Delhi (100+ users)** with **40+ REST APIs**, analytics dashboards, and event-driven email workflows over a 19-table PostgreSQL schema.
+### CiPD 360 — ERP &amp; LMS for IIIT Delhi · Next.js, PostgreSQL, Node.js
+- Launched a full-stack **ERP + LMS serving 250+ students and faculty** — **40+ REST APIs**, analytics dashboards, and event-driven email workflows over a 19-table PostgreSQL architecture.
 - Designed a **Wi-Fi-based real-time attendance system** using MAC/BSSID detection backed by Node.js services.
 
 ---
@@ -94,17 +95,19 @@ Systems-oriented engineer with a strong CS + applied-math foundation (DSA, OS, D
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=111111" alt="JavaScript" />
   <img src="https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL" />
+  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" alt="Bash" />
 </p>
 
 **Backend &amp; Systems**
 
 <p>
-  <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot" />
   <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot" />
   <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
   <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express" />
   <img src="https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white" alt="Kafka" />
   <img src="https://img.shields.io/badge/Linux-B45309?style=for-the-badge&logo=linux&logoColor=111111" alt="Linux" />
+  <img src="https://img.shields.io/badge/TCP%2FUDP%2FIP-0F766E?style=for-the-badge&logoColor=white" alt="TCP/UDP/IP" />
   <img src="https://img.shields.io/badge/OpenMP-1D4ED8?style=for-the-badge&logoColor=white" alt="OpenMP" />
   <img src="https://img.shields.io/badge/MPI-047857?style=for-the-badge&logoColor=white" alt="MPI" />
   <img src="https://img.shields.io/badge/Multithreading-7C2D12?style=for-the-badge&logoColor=white" alt="Multithreading" />
@@ -123,8 +126,8 @@ Systems-oriented engineer with a strong CS + applied-math foundation (DSA, OS, D
 **AI &amp; ML**
 
 <p>
-  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain" />
   <img src="https://img.shields.io/badge/LangGraph-FF6F00?style=for-the-badge&logoColor=white" alt="LangGraph" />
+  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain" />
   <img src="https://img.shields.io/badge/RAG-059669?style=for-the-badge&logoColor=white" alt="RAG" />
   <img src="https://img.shields.io/badge/MCP-2563EB?style=for-the-badge&logoColor=white" alt="MCP" />
   <img src="https://img.shields.io/badge/LLM%20Applications-412991?style=for-the-badge&logo=openai&logoColor=white" alt="LLM Applications" />
@@ -145,7 +148,9 @@ Systems-oriented engineer with a strong CS + applied-math foundation (DSA, OS, D
 
 ## Achievements
 
-- 🏅 **Codeforces Specialist** — max rating **1458**, 500+ problems solved across Codeforces & LeetCode.
+- 🏅 **Codeforces Specialist** — max rating **1458**; **750+ DSA problems** solved (550+ LeetCode, 200+ Codeforces).
+- 🏆 **IMC Prosperity 4 Finalist** — IMC Trading's global algorithmic trading competition · World Rank **823** · All-India Rank **175** · Algorithmic Rank **278**.
+- 🎓 **SMP Recognition Award (2025–26)** — Student Mentor, IIIT Delhi's Student Mentorship Program.
 - 🚀 State-level qualifier, **Smart India Hackathon 2024**.
 - 🔢 **Mathematics topper — CBSE 2021** with a perfect **100/100**.
 - 🎤 Delivered **3+ tech workshops at ESYA** (IIIT Delhi's tech fest) to **200+ participants** with 90%+ positive feedback.
