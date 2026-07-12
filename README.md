@@ -36,7 +36,8 @@ Systems-oriented engineer with a strong CS + applied-math foundation (DSA, OS, D
 
 - 🛠️ **Backend & distributed systems** — FastAPI, Spring Boot, Kafka, REST microservices over TCP/IP.
 - ⚡ **Systems & HPC** — C/C++ on Linux, multithreading, OpenMP/MPI, OS internals.
-- 🤖 **Agentic AI** — LLM orchestration with LangGraph/LangChain, RAG, and MCP — with deterministic guardrails where money moves.
+- 🤖 **Agentic AI** — LLM orchestration with LangGraph/LangChain, RAG over vector embeddings, and MCP — with deterministic guardrails where money moves.
+- 🧠 **Applied ML** — deep-learning computer vision (YOLOv8, OpenCV), model evaluation with labelled eval sets, NumPy / Pandas / scikit-learn.
 - 📈 **Quantitative computing** — parallel PDE solvers and performance-critical numerical modeling.
 - 🧩 **Codeforces Specialist (max 1458)** — **750+ problems** solved (550+ LeetCode, 200+ Codeforces).
 - 🏆 **IMC Prosperity 4 Finalist** — World Rank **823** · All-India Rank **175** · Algorithmic Rank **278**.
@@ -52,34 +53,34 @@ Systems-oriented engineer with a strong CS + applied-math foundation (DSA, OS, D
 - Eliminated concurrency defects under peak load via **atomic transactions and row-level locking**; enforced secure coding (input validation, parameterized queries) and validated releases with **433 automated tests** across 21 suites.
 
 ### Undergraduate Research — Parallel Computing for Scientific &amp; Financial Simulations · Aug 2025 – Dec 2025
-- Accelerated HPC simulation kernels **15×** by parallelizing with **OpenMP and MPI**, recovering **60+ compute-hours** through multithreaded optimization and performance profiling.
-- Implemented **Black-Scholes option-pricing PDE solvers** (Explicit, Implicit, Crank-Nicolson) in C++ and parallelized the explicit scheme, cutting per-cycle solve latency from **2.69 s to 6 ms**.
+- Accelerated the explicit PDE solver **~10×** on multicore CPUs with **OpenMP** (persistent teams, cache-friendly access) and scaled it across nodes with **MPI** (domain decomposition, ghost-cell exchange), benchmarked against a serial baseline.
+- Implemented **Explicit, Implicit, and Crank-Nicolson** finite-difference solvers for the **Black-Scholes option-pricing PDE** (C++/Python), benchmarked against analytic prices; exploiting Crank-Nicolson's **unconditional stability** cut average solve time from **2.69 s to ~6 ms** at equal-or-better accuracy.
 
 ### Software Developer Intern — DRDO (ISSA Lab, Metcalfe House) · Jun 2025 – Jul 2025
 - Engineered asynchronous **inter-service communication between C++ and Java (Spring Boot) microservices using Kafka over TCP/IP** in a distributed, mission-critical defense system, improving processing efficiency by **60%**.
-- Trained a **YOLOv8** maritime vessel-detection model on HRSC2016 satellite imagery to **0.83 mAP@0.5**, with **OpenCV**-based image preprocessing and a custom XML→YOLO annotation parser.
+- Trained a **YOLOv8** deep-learning object-detection model for maritime vessels on HRSC2016 satellite imagery to **0.83 mAP@0.5**, with **OpenCV**-based image preprocessing and a custom XML→YOLO annotation parser.
 - Streamlined C++ Linux service deployments into a **CI/CD pipeline**, eliminating manual integration errors across test environments.
 
 ---
 
 ## Featured Projects
 
-### [ReturnGuard — Multi-Tenant Returns Resolution Platform](https://github.com/akl-akshat/ReturnGuard) · Python, FastAPI, LangGraph, Kafka, PostgreSQL
-- Multi-tenant returns-automation service on an **11-node stateful agent graph** — driven synchronously (REST) and asynchronously (a **Kafka** pipeline), with each tenant's uploaded refund policy grounding every decision via per-tenant vector retrieval (pgvector).
-- Money path built to stay correct under failure and concurrency: **deterministic guardrails** (payout caps, rate limits) evaluated outside the model, plus **idempotent execution with a transactional outbox** — retries and redeliveries never double-pay.
-- Adversarially red-teamed with every fix pinned by a regression test; **200+ tests** run in CI, gating merges on a **44-case labelled eval** — **88.6% auto-resolution with zero guardrail violations**.
+### [ReturnGuard — Agentic AI Customer Support &amp; Refunds Resolution Platform](https://github.com/akl-akshat/ReturnGuard) · Python, FastAPI, LangGraph, RAG, Kafka, PostgreSQL
+- Multi-tenant **agentic AI** platform automating the dominant support workload of food-delivery and e-commerce brands — **order disputes and refunds**: an autonomous LLM agent on an **11-node LangGraph state graph** adjudicates every ticket against the brand's uploaded policy via per-tenant **RAG** (pgvector) with citations — across **68 REST APIs**, a **Kafka** pipeline (idempotent consumer, dead-letter queue, transactional outbox), and 4 role-gated portals behind **RBAC**.
+- Fraud-resistant money path: **deterministic guardrails evaluated outside the model** (prompt injection cannot move money), server-side evidence verification, human-in-the-loop escalation, and **idempotent execution with per-session locks** — retries and redeliveries never double-pay.
+- Red-teamed twice (5-agent adversarial pass + 20-case hostile E2E sweep) — **11 exploits found, fixed, and pinned as regressions**; **290+ tests** and a **44-case labelled offline eval** gate every push in CI: **88.6% auto-resolution, zero guardrail violations** — deployed live on Render.
 
-### [Custom Unix Shell with MLFQ Scheduler](https://github.com/akl-akshat/OperatingSystems) · C, Makefile, Linux
-- Programmed an **MLFQ-based scheduler daemon** inside a custom C shell (fork/exec/wait system calls), managing **30+ concurrent processes** with adaptive priority scaling (~12% CPU-utilization gain under load).
-- Added **semaphore-based synchronization** and timing-driven deadlock detection, eliminating race conditions under heavy concurrency.
+### [CiPD 360 — ERP &amp; LMS for IIIT Delhi](https://github.com/akl-akshat/cipd_erp) · Next.js, PostgreSQL, Node.js
+- Team project (4 devs): full-stack **ERP + LMS serving 250+ students and faculty** — **40+ REST APIs**, analytics dashboards, and event-driven email workflows over a 19-table PostgreSQL architecture, including a Wi-Fi-based real-time attendance system (MAC/BSSID detection).
+- **My ownership:** the gamified **feedback &amp; points system** end to end — **leaderboard (API + UI)**, admin feedback **analytics dashboard** with privacy controls, student feedback UX, and **automated cron + email pipelines** (verify: `git log --author="Akshat"`).
 
 ### [Black-Scholes Option Pricing via Parallel Computing](https://github.com/akl-akshat/Black-Scholes-using-Parallel-Computing) · C++, Python, OpenMP, MPI
 - Built finite-difference solvers for the Black-Scholes PDE with **MPI** and **OpenMP**, using domain decomposition and ghost-cell communication.
 - Benchmarked runtime, stability, and accuracy across serial, MPI, and OpenMP variants with supporting analysis.
 
-### CiPD 360 — ERP &amp; LMS for IIIT Delhi · Next.js, PostgreSQL, Node.js
-- Launched a full-stack **ERP + LMS serving 250+ students and faculty** — **40+ REST APIs**, analytics dashboards, and event-driven email workflows over a 19-table PostgreSQL architecture.
-- Designed a **Wi-Fi-based real-time attendance system** using MAC/BSSID detection backed by Node.js services.
+### [Custom Unix Shell with MLFQ Scheduler](https://github.com/akl-akshat/OperatingSystems) · C, Makefile, Linux
+- Programmed an **MLFQ-based scheduler daemon** inside a custom C shell (fork/exec/wait system calls), managing **30+ concurrent processes** with adaptive priority scaling (~12% CPU-utilization gain under load).
+- Added **semaphore-based synchronization** and timing-driven deadlock detection, eliminating race conditions under heavy concurrency.
 
 ---
 
@@ -119,6 +120,7 @@ Systems-oriented engineer with a strong CS + applied-math foundation (DSA, OS, D
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
   <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
   <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase" />
   <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
   <img src="https://img.shields.io/badge/MySQL-1F2937?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
 </p>
@@ -133,6 +135,9 @@ Systems-oriented engineer with a strong CS + applied-math foundation (DSA, OS, D
   <img src="https://img.shields.io/badge/LLM%20Applications-412991?style=for-the-badge&logo=openai&logoColor=white" alt="LLM Applications" />
   <img src="https://img.shields.io/badge/YOLOv8-8B5CF6?style=for-the-badge&logoColor=white" alt="YOLOv8" />
   <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV" />
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
+  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="scikit-learn" />
 </p>
 
 **DevOps &amp; Tooling**
@@ -165,5 +170,5 @@ Systems-oriented engineer with a strong CS + applied-math foundation (DSA, OS, D
 </p>
 
 <p align="center">
-  <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=akl-akshat&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  <img height="165" src="https://streak-stats.demolab.com/?user=akl-akshat&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </p>
